@@ -416,6 +416,28 @@
       }
     }
 
+    /*Iphone 4*/
+    @media only screen and (min-device-width: 320px)  and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:landscape) {
+      .main .inner {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      .main .menu {
+        display: none;
+      }
+
+      .main .btn-wrapper {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+      }
+    }
+
     @media (orientation: landscape) and (min-width: 500px) {
       .main .menu li:last-child {
         display: table-cell;
